@@ -1,4 +1,4 @@
-export default [
+export const PaletteColors = [
   {
     paletteName: "Material UI Colors",
     id: "material-ui-colors",
