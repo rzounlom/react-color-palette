@@ -6,7 +6,6 @@ import "./App.scss";
 
 class App extends Component {
   render() {
-    console.log(generatePalette(PaletteColors[4]));
     return (
       <div className="App">
         <Palette palette={generatePalette(PaletteColors[4])} />
