@@ -30,7 +30,7 @@ class ColorBox extends Component {
               <span>{name}</span>
             </div>
             <button className="copy-button">Copy</button>
-            <span className="see-more">See More</span>
+            <span className="see-more">More</span>
           </div>
         </div>
       </CopyToClipboard>

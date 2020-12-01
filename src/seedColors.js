@@ -55,7 +55,9 @@ export const PaletteColors = [
   {
     paletteName: "Flat UI Colors Dutch",
     id: "flat-ui-colors-dutch",
-    emoji: "🇳🇱",
+    emoji: (
+      <img src="https://www.countryflags.io/nl/flat/64.png" alt="dutch flag" />
+    ),
     colors: [
       { name: "Sunflower", color: "#FFC312" },
       { name: "Energos", color: "#C4E538" },
@@ -82,7 +84,9 @@ export const PaletteColors = [
   {
     paletteName: "Flat UI Colors American",
     id: "flat-ui-colors-american",
-    emoji: "🇺🇸",
+    emoji: (
+      <img src="https://www.countryflags.io/us/flat/64.png" alt="US flag" />
+    ),
     colors: [
       { name: "LightGreenishBlue", color: "#55efc4" },
       { name: "FadedPoster", color: "#81ecec" },
@@ -109,7 +113,9 @@ export const PaletteColors = [
   {
     paletteName: "Flat UI Colors Aussie",
     id: "flat-ui-colors-aussie",
-    emoji: "🇦🇺",
+    emoji: (
+      <img src="https://www.countryflags.io/au/flat/64.png" alt="Aussie flag" />
+    ),
     colors: [
       { name: "Beekeeper", color: "#f6e58d" },
       { name: "SpicedNectarine", color: "#ffbe76" },
@@ -136,7 +142,12 @@ export const PaletteColors = [
   {
     paletteName: "Flat UI Colors British",
     id: "flat-ui-colors-british",
-    emoji: "🇬🇧",
+    emoji: (
+      <img
+        src="https://www.countryflags.io/gb/flat/64.png"
+        alt="British flag"
+      />
+    ),
     colors: [
       { name: "ProtossPylon", color: "#00a8ff" },
       { name: "Periwinkle", color: "#9c88ff" },
@@ -163,7 +174,12 @@ export const PaletteColors = [
   {
     paletteName: "Flat UI Colors Spanish",
     id: "flat-ui-colors-spanish",
-    emoji: "🇪🇸",
+    emoji: (
+      <img
+        src="https://www.countryflags.io/es/flat/64.png"
+        alt="Spanish flag"
+      />
+    ),
     colors: [
       { name: "JacksonsPurple", color: "#40407a" },
       { name: "C64Purple", color: "#706fd3" },
@@ -190,7 +206,9 @@ export const PaletteColors = [
   {
     paletteName: "Flat UI Colors Indian",
     id: "flat-ui-colors-indian",
-    emoji: "🇮🇳",
+    emoji: (
+      <img src="https://www.countryflags.io/in/flat/64.png" alt="Indian flag" />
+    ),
     colors: [
       { name: "OrchidOrange", color: "#FEA47F" },
       { name: "SpiroDiscoBall", color: "#25CCF7" },
@@ -217,7 +235,9 @@ export const PaletteColors = [
   {
     paletteName: "Flat UI Colors French",
     id: "flat-ui-colors-french",
-    emoji: "🇫🇷",
+    emoji: (
+      <img src="https://www.countryflags.io/fr/flat/64.png" alt="French flag" />
+    ),
     colors: [
       { name: "FlatFlesh", color: "#fad390" },
       { name: "MelonMelody", color: "#f8c291" },
